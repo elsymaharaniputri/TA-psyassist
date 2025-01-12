@@ -1,0 +1,61 @@
+name: psyassist_apk
+description: "Tugas Akhir Elsy Maharani Putri"
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  cool_alert: ^2.0.1
+  intl: ^0.19.0
+  url_launcher: ^6.2.5
+  image_picker: ^1.1.2
+  shared_preferences: ^2.2.3
+  just_audio: ^0.9.42
+  flutter_rating_bar: ^4.0.1
+  fl_chart: ^0.69.2
+  tflite_flutter: ^0.11.0
+  camera: ^0.11.0+2
+
+  flutter_bloc: ^8.0.0
+  http: ^1.2.2
+  audio_session: any
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.5
+  image: ^4.3.0
+  path: ^1.9.0
+  tflite: ^1.1.2
+
+  # camera: ^0.11.0+2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo/
+    - assets/images/home/
+    - assets/images/screen/
+    - assets/images/stabilisasi/
+    - assets/images/panduan/
+    - assets/images/rekomendasi/
+    - assets/audios/
+    - assets/model/model.tflite
+    - assets/model/labels.txt
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins_bold.ttf
+        - asset: assets/fonts/poppins_semibold.ttf
+        - asset: assets/fonts/poppins_medium.ttf
+        - asset: assets/fonts/poppins_regular.ttf
+
